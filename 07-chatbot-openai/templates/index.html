@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat con OpenAI</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<form id="chat-form">
+    <input type="text" id="user-message" placeholder="Escribe tu mensaje aquí" required>
+    <button type="submit">Enviar</button>
+</form>
+<div id="chat-log"></div>
+
+<script>
+        $(document).ready(function() {
+            $("#chat-form").submit(function(event) {
+                event.preventDefault();
+
+                const userMessage = $("#user-message").val();
+                $("#chat-log").append(`<p>User: ${userMessage}</p>`);
+
+                $.ajax({
+                    url: '/api/chat',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    dataType: 'json',
+                    data: JSON.stringify({ message: userMessage }),
+                    success: function(response) {
+                        const aiMessage = response.message;
+                        $("#chat-log").append(`<p>AI: ${aiMessage}</p>`);
+                    },
+                    error: function() {
+                        $("#chat-log").append(`<p>Error al enviar el mensaje</p>`);
+                    }
+                });
+
+                $("#user-message").val('');
+            });
+        });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "ID": 1,
+    "NOMBRE": "Gafas de sol Polarizadas",
+    "DESCRIPCION": "Lentes polarizadas y marco de metal.",
+    "PRECIO": 25.99
+  },
+  {
+    "ID": 2,
+    "NOMBRE": "Auriculares Inalámbricos",
+    "DESCRIPCION": "Bluetooth 5.0 y micrófono incorporado.",
+    "PRECIO": 59.99
+  },
+  {
+    "ID": 3,
+    "NOMBRE": "Batería Externa Portátil",
+    "DESCRIPCION": "Alta capacidad y carga inteligente.",
+    "PRECIO": 39.99
+  },
+  {
+    "ID": 4,
+    "NOMBRE": "Reloj Inteligente Fitness",
+    "DESCRIPCION": "Pantalla táctil y funciones de fitness integradas.",
+    "PRECIO": 89.99
+  },
+  {
+    "ID": 5,
+    "NOMBRE": "Altavoz Portátil Bluetooth",
+    "DESCRIPCION": "Sonido de alta calidad y conexión inalámbrica.",
+    "PRECIO": 49.99
+  },
+  {
+    "ID": 6,
+    "NOMBRE": "Cámara de Seguridad WiFi",
+    "DESCRIPCION": "Vigilancia remota y detección de movimiento.",
+    "PRECIO": 79.99
+  },
+  {
+    "ID": 7,
+    "NOMBRE": "Mochila Antirrobo",
+    "DESCRIPCION": "Cierre de cremallera oculto y puerto USB.",
+    "PRECIO": 29.99
+  },
+  {
+    "ID": 8,
+    "NOMBRE": "Smart TV LED 4K",
+    "DESCRIPCION": "Pantalla de alta definición y conectividad inteligente.",
+    "PRECIO": 599.99
+  },
+  {
+    "ID": 9,
+    "NOMBRE": "Robot de Limpieza",
+    "DESCRIPCION": "Programable y sistema de navegación inteligente.",
+    "PRECIO": 199.99
+  },
+  {
+    "ID": 10,
+    "NOMBRE": "Máquina de Café Automática",
+    "DESCRIPCION": "Molinillo integrado y espuma de leche automática.",
+    "PRECIO": 129.99
+  }
+]

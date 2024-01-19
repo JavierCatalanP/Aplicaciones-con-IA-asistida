@@ -4,4 +4,4 @@
   </div>
 
   <h1 align="center"> Hola 👋, Dejo disponible proyectos con IA asistida</h1>
-  <h3 align="center"> <br/><br/>
+
